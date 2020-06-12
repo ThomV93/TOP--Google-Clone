@@ -1,6 +1,54 @@
+html,
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    height: 100%;
+}
+
+#nav-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+#nav-elements {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#icon-img {
+    max-width: 25px;
+    height: auto;
+    width: auto;
+}
+
+#search-icon {
+    max-width: 20px;
+    height: auto;
+    width: auto;
+}
+
+#keyboard-icon {
+    max-width: 25px;
+    height: auto;
+    width: auto;
+}
+
+#microphone-icon {
+    max-width: 25px;
+    height: auto;
+    width: auto;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;   
 }
 
