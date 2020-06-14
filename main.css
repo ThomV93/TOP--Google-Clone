@@ -22,6 +22,11 @@ a {
     color: rgba(0,0,0,0.87);
 }
 
+a:hover {
+    opacity: .85;
+    text-decoration: underline;
+}
+
 #nav-container {
     position: fixed;
     left: 0;
@@ -63,6 +68,10 @@ a {
     padding: 0 12px;
 }
 
+#enter-btn-container:hover {
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
 #enter-btn {
     color: #fff;
     font-size: 13px;
@@ -84,6 +93,11 @@ a {
     margin: 25px auto;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
+}
+
+#form-elements-container:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
 }
 
 #elements-container {
@@ -115,8 +129,8 @@ a {
 }
 
 #search-icon {
-    height: 18px;
-    width: 18px;
+    height: 16px;
+    width: 16px;
     padding: 0 8px 0 8px;
 }
 
@@ -128,7 +142,7 @@ a {
 }
 
 #microphone-icon {
-    max-width: 15px;
+    max-width: 14px;
     height: auto;
     width: auto;
     padding: 0 8px 0 8px;
@@ -151,6 +165,14 @@ a {
     text-align: center;
 }
 
+.btn:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -170,6 +192,7 @@ footer {
 
 #footer-country {
     margin-left: 30px;
+    font-size: 15px;
 }
 
 #footer-container-right {
