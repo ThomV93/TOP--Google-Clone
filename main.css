@@ -10,10 +10,10 @@ body {
 }
 
 #page-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    height: 233px;
     margin-top: 200px;
+    text-align: center;
 }
 
 a {
@@ -67,28 +67,69 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#form-container {
+    margin-top: 0;
+    height: 150px;
+}
+
+#search-form {
+    height: 70px;
+}
+
+#form-elements-container {
+    width: 482px;
+    height: 44px;
+    margin: 0 auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+#elements-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4px;
+    padding: 0 8px;
+}
+
+#search-input {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    height: 34px;
+    font-size: 16px;
+}
+
 #icon-img {
-    max-width: 25px;
+    max-width: 24px;
     height: auto;
     width: auto;
 }
 
 #search-icon {
-    max-width: 20px;
-    height: auto;
-    width: auto;
+    height: 18px;
+    width: 18px;
+    padding: 0 8px 0 8px;
 }
 
 #keyboard-icon {
-    max-width: 25px;
+    max-width: 30px;
     height: auto;
     width: auto;
+    padding: 0 8px 0 8px;
 }
 
 #microphone-icon {
-    max-width: 25px;
+    max-width: 15px;
     height: auto;
     width: auto;
+    padding: 0 8px 0 8px;
 }
 
 footer {
