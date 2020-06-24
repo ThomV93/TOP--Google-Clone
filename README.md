@@ -1,3 +1,3 @@
 The Odin Project - Google clone
 
-This is my first project in the road to become a web developer
+This is my first project on the road to become a web developer
